@@ -1,4 +1,9 @@
 # Practice Codes
+## Common project
+> Testing anything. Code to be tested should be compiled as jar, when using custom build instead of IDE. The IDE project can run a unit test and doesn't
+build the test codes as jar but uses the source files.
+
+> Custom build: Run the main script "compile main.sh" at the project root dir.
 ## codility
 > Solving 3 problems as part of our training assessment.
 
