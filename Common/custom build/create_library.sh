@@ -1,10 +1,8 @@
 #! /bin/bash
 
-srcDir="./custom build/production/"
-srcFiles=Trial.class
-outputDir="./custom build/artifacts/"
+jarDir=./custom\ build/artifacts/
 jarName=CommonLib.jar
 
 ./custom\ build/compile\ lib\ classes.sh
 
-jar -cfv "$outputDir$jarName" -C "$srcDir" "$srcFiles"
+jar -cfv "$jarDir$jarName" -C "$prodDir" .
